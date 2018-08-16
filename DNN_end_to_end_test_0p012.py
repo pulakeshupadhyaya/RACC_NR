@@ -1,10 +1,3 @@
-'''Trains a simple convnet on the file types data set
-    
-    Gets to 90%+ test accuracy
-    
-    Not optimal in terms of memory : reads too much into memory
-    Possible improvement : Read one batch at a time from the storage
-    '''
 
 from __future__ import print_function
 import keras
